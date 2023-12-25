@@ -1,0 +1,35 @@
+Normalizasyon: 
+Değerleri 0 ile 1 arasında olacak şekilde ölçekleyen bir özellik ölçeklendirme tekniğidir. 
+Normalizasyon formülü şu şekildedir:
+
+x′=xmax​−xmin​x−xmin​​
+
+Burada x′, özelliğin normalleştirilmiş elemanı; xmin​, özelliğin en küçük elemanı; 
+x, normalleştirilecek olan özellik elemanı; xmax​, özelliğin en büyük elemanıdır. 
+Bu tür ölçeklendirmenin amacı, veri setindeki sayısal sütunların değerlerini değiştirerek aralıklarındaki farklılıkların korunmasıdır.
+
+Standardizasyon (Z-Score Normalization): 
+Farklı değer aralıklarına sahip özellikleri, tahmin etmede mesafeyi kullanan Makine Öğrenimi Modellerine uyarlayan bir özellik ölçeklendirme tekniğidir. 
+Standardizasyon formülü şu şekildedir:
+
+z=σx−μ​
+
+Burada z, standartlaştırılmış değer; x, özellik elemanı; μ, özelliklerin ortalaması; σ, özelliklerin standart sapmasıdır. 
+Standartlaştırıldıktan sonra, tüm sütunların ortalaması sıfır, standart sapması bir olup model üzerinde aynı etki gösterecektir.
+Her iki teknik de veri önişleme aşamasının çok önemli bir parçasıdır ve bazı makine öğrenme algoritmalarının performansını büyük oranda arttırır.
+
+
+Normalizasyon ve Standardizasyon arasındaki temel farklar aşağıda belirtilmiştir:
+
+Veri Aralığı: 
+Normalizasyon, verileri belirli bir aralığa (genellikle 0 ile 1 arasında) ölçeklerken, Standardizasyon, verilerin ortalamasını 0 ve standart sapmasını 1 olacak şekilde ölçekler.
+
+Outlier Etkisi: 
+Normalizasyon, aykırı değerlerin (outliers) varlığından daha fazla etkilenebilir. Çünkü bu değerler, verinin minimum ve maksimum değerlerini belirler. 
+Diğer taraftan, Standardizasyon, aykırı değerlerin etkisini azaltır.
+
+Kullanım Alanları: 
+Normalizasyon genellikle görüntü işleme, sinir ağları gibi alanlarda kullanılırken, 
+Standardizasyon genellikle makine öğrenmesi algoritmalarında (örneğin, Support Vector Machines, Linear Discriminant Analysis, Logistic Regression) kullanılır.
+
+Her iki teknik de veri önişleme aşamasının çok önemli bir parçasıdır ve bazı makine öğrenme algoritmalarının performansını büyük oranda arttırır.
